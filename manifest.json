@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "BetterENT",
+    "version": "1.0",
+  
+    "description": "Améliore votre Expèrience sur Mon-ENT-Occitanie.",
+  
+    "icons": {
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*.mon-ent-occitanie.fr/*"],
+        "js": ["main.js"]
+      }
+    ]
+  }
+  
